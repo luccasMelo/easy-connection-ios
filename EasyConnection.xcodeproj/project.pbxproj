@@ -10,6 +10,10 @@
 		4DD46A6D1FA5064B00A164D2 /* EasyConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD46A631FA5064B00A164D2 /* EasyConnection.framework */; };
 		4DD46A721FA5064B00A164D2 /* EasyConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD46A711FA5064B00A164D2 /* EasyConnectionTests.swift */; };
 		4DD46A741FA5064B00A164D2 /* EasyConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD46A661FA5064B00A164D2 /* EasyConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD46A7E1FA507C400A164D2 /* ListBluetoothProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD46A7D1FA507C400A164D2 /* ListBluetoothProvider.swift */; };
+		4DD46A801FA5080700A164D2 /* ListBLEProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD46A7F1FA5080700A164D2 /* ListBLEProvider.swift */; };
+		4DD46A821FA5081C00A164D2 /* BluetoothCommunicationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD46A811FA5081C00A164D2 /* BluetoothCommunicationProvider.swift */; };
+		4DD46A841FA5082E00A164D2 /* BLECommunicationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD46A831FA5082E00A164D2 /* BLECommunicationProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		4DD46A6C1FA5064B00A164D2 /* EasyConnectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyConnectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD46A711FA5064B00A164D2 /* EasyConnectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyConnectionTests.swift; sourceTree = "<group>"; };
 		4DD46A731FA5064B00A164D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD46A7D1FA507C400A164D2 /* ListBluetoothProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBluetoothProvider.swift; sourceTree = "<group>"; };
+		4DD46A7F1FA5080700A164D2 /* ListBLEProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBLEProvider.swift; sourceTree = "<group>"; };
+		4DD46A811FA5081C00A164D2 /* BluetoothCommunicationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothCommunicationProvider.swift; sourceTree = "<group>"; };
+		4DD46A831FA5082E00A164D2 /* BLECommunicationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLECommunicationProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,10 @@
 			children = (
 				4DD46A711FA5064B00A164D2 /* EasyConnectionTests.swift */,
 				4DD46A731FA5064B00A164D2 /* Info.plist */,
+				4DD46A7D1FA507C400A164D2 /* ListBluetoothProvider.swift */,
+				4DD46A7F1FA5080700A164D2 /* ListBLEProvider.swift */,
+				4DD46A811FA5081C00A164D2 /* BluetoothCommunicationProvider.swift */,
+				4DD46A831FA5082E00A164D2 /* BLECommunicationProvider.swift */,
 			);
 			path = EasyConnectionTests;
 			sourceTree = "<group>";
@@ -204,6 +216,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DD46A721FA5064B00A164D2 /* EasyConnectionTests.swift in Sources */,
+				4DD46A7E1FA507C400A164D2 /* ListBluetoothProvider.swift in Sources */,
+				4DD46A821FA5081C00A164D2 /* BluetoothCommunicationProvider.swift in Sources */,
+				4DD46A801FA5080700A164D2 /* ListBLEProvider.swift in Sources */,
+				4DD46A841FA5082E00A164D2 /* BLECommunicationProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
