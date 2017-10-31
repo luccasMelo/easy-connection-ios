@@ -3,8 +3,7 @@
 
 
 [![Language Swift 3.0](https://img.shields.io/badge/Language-Swift%203.0-orange.svg?style=flat)](https://swift.org)
-[![Platforms iOS](https://img.shields.io/badge/Platforms-iOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20OS%20X-lightgray.svg?style=flat)](http://www.apple.com)
-[![License MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat)]
+[![License Apache 2.0](https://img.shields.io/hexpm/l/plug.svg)](LICENSE.md)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 > This is a framework contains only 4 providers and help to create a apps with bluetooth interface
