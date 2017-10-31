@@ -7,8 +7,10 @@
 //
 
 import Foundation
+import CoreBluetooth
 
 public class ListBLEProvider{
+    private var cb: CBPeripheralManager?
     
     
 }
